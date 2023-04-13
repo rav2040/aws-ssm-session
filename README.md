@@ -13,9 +13,11 @@ npm i -g aws-ssm-session
 ## Usage
 
 ```sh
-ssm-start [profile] [id]
+ssm-start [-b|--background] [profile] [id]
 ```
 The value of `profile` should match an existing AWS credential profile *and* the name of your configuration file. `id` refers to one of the SSM documents listed in the configuration. See below for details.
+
+Use the `-b` or `--background` flag to run the session manager plugin as a background process.
 
 ## Pre-requisites
 
