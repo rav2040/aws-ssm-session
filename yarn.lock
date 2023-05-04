@@ -8,6 +8,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "aws-ssm-session@workspace:."
   bin:
-    aws-ssm-session: lib/main.mjs
+    ssm-start: lib/main.mjs
   languageName: unknown
   linkType: soft
