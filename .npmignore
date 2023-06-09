@@ -1,4 +1,5 @@
 .yarn
+.github
 .gitattributes
 .gitignore
 .yarnrc.yml
